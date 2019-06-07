@@ -1,0 +1,477 @@
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	background-image: url("img/bitra.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	color: #fff;
+	font-size: 17px;
+	font-family: 'Just Another Hand', cursive;
+	font-weight: 400;
+}
+
+/* navbar */ 
+
+.header
+{
+	width: 100%;
+	min-height: 110px; 
+	margin-left: auto;
+	margin-right: auto; 
+
+	
+}
+
+.logo
+{
+	background-color: #006bb3;
+	float: left;
+	width: 30%; 
+	height: 130px;
+	margin: 0; 
+
+}
+
+.logo-sign
+{
+	width: 100px;
+	height: 130px;
+	background-color: #006bb3;
+	margin: 0;
+	padding: 0; 
+	float: left;  
+}
+
+.icon-feather
+{
+	margin: 0;
+	font-size: 70px; 
+	position: absolute;
+	left: 35px;
+	top: 20px;
+
+}
+
+.logo-word
+{
+	width: 290px;
+	height: 130px;
+	background-color: #006bb3;
+	margin: 0;
+	float: left; 
+}
+
+.logo-word h1
+{
+	margin: 25px 0 0 5px; 
+	font-size: 50px;
+	letter-spacing: 3px; 
+	font-weight: 400;  
+	line-height: 40px; 
+
+}
+
+.nav
+{
+	background-color: #006bb3;
+	color: #fff; 
+	float: left;
+	width: 70%; 
+	height: 130px; 
+	margin: 0; 
+	text-decoration: none;
+	text-align: center;
+}
+
+.nav ul
+{
+	margin: 0;
+	padding: 67px 0 0 35px;
+	list-style-type: none; 
+	display: inline-block;
+	
+}
+
+.nav ul > li
+{
+	float: left; 
+	width: 150px; 
+	font-size: 35px; 
+} 
+
+.nav ul > li a
+{
+	text-decoration: none;
+	opacity: 0.9;
+	color: #fff;  
+}
+
+.nav ul > li a:visited
+{
+	color: #fff;
+}
+
+.nav ul > li a:hover
+{
+	opacity: 1; 
+	cursor: pointer;
+
+}
+
+#top-scroll
+{
+	position: fixed;
+	bottom: 30px; 
+	right: 30px; 
+	height: 60px;
+	width: 60px; 
+	text-align: center; 
+	font-size: 70px; 
+	transition: 0.2s ease-in-out; 
+	cursor: pointer; 
+}
+
+#top-scroll a
+{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	height: 60px;
+	width: 60px;
+	opacity: 0.7; 
+	background-color: rgb(128, 18, 10); 
+}
+
+#top-scroll a:hover
+{
+	opacity: 0.9; 
+}
+
+
+
+/* Main content */ 
+
+.container
+{
+	background-color:rgba(0, 0, 0, 0.3);
+	width: 1100px; 
+	min-height: 526px; 
+	margin-left: auto;
+	margin-right: auto; 
+	font-family: 'Roboto Slab', serif;
+
+}
+
+
+.home-image
+{
+	min-height: 700px; 
+
+}
+
+.welcome-text
+{
+	text-align: center; 
+}
+
+
+.welcome-text  h1
+{
+	margin: 0; 
+	font-size: 60px;  
+	text-shadow: 3px 3px 7px rgb(15, 13, 15);
+	color: #fff;
+	font-weight: 300;
+	padding: 200px 0 100px 0; 
+}
+
+.h2
+{
+	font-size: 35px; 
+	font-weight: 300;
+	text-shadow: 3px 3px 7px rgb(15, 13, 15);
+	border-bottom: 1px solid #fff;
+	padding: 0 0 5px 0; 
+}
+#about-bitra
+{
+	min-height: 700px;
+	text-align: center; 
+	padding-top: 5%; 
+}
+
+.article-info
+{
+	width: 300px; 
+	min-height: 500px; 
+	background-color:rgba(0, 0, 0, 0.3);
+	border: 1px solid rgba(255, 255, 255, 0);
+	border-radius: 5%;  
+	text-align: center;
+	display: inline-block;
+	text-shadow: 3px 3px 7px rgb(15, 13, 15);
+	margin-bottom: 10%; 
+	padding-top: 2%; 
+}
+
+.article-info:nth-child(2)
+{
+	margin-left: 5%;
+	margin-right: 5%; 
+
+}
+
+.photo-about-bitra
+{
+	height: 250px;
+	width: 250px; 
+	-webkit-clip-path: circle(50% at 50% 50%);
+	clip-path: circle(50% at 50% 50%);
+	display: inline-block;
+}
+
+
+.photo-about-bitra  img
+{
+	width: 100%; 
+	height: 100%; 
+}
+
+.article-info h1
+{
+	font-weight: 400; 
+	padding-top: 3%; 
+}
+
+.article-info p
+{
+	font-weight: 300; 
+	padding: 5% 5% 0 5%;
+	text-align: justify; 
+	 
+}
+
+#location
+{
+	text-align: center;
+	min-height: 700px;
+}
+
+#location h1
+{
+	font-weight: 400; 
+	font-size: 60px; 
+	text-shadow: 3px 3px 7px rgb(15, 13, 15);
+	padding-top: 4%;
+	padding-bottom: 8%; 
+}
+
+.location-info
+{
+	width: 100%;
+	height: 300px;
+	padding: 0 0 0 50px; 
+}
+
+#map
+{
+	float: left; 
+	width: 500px;
+	height: 300px;
+	margin-right: 1%; 
+}
+
+.location-text
+{
+	float: left; 
+	width: 500px;
+	height: 300px; 
+	text-shadow: 3px 3px 7px rgb(15, 13, 15);
+	text-align: left; 
+}
+
+
+#gallery
+{
+	min-height: 700px;
+	text-align: center; 
+	padding: 40px 0 0 0;
+}
+
+.photo-gallery
+{ 
+	height: 133px;
+	width: 200px; 
+	display: inline-block; 
+	transition: all 0.2s ease-in-out;
+}
+
+.photo-gallery img
+{
+	width: 100%;
+	height: 100%; 
+}
+
+
+.photo-gallery:hover 
+{
+	-ms-transform: scale(1.1, 1.1); /* IE 9 */
+	-webkit-transform: scale(1.1, 1.1); /* Safari */
+	transform: scale(1.1, 1.1);
+	cursor: pointer; 
+}
+
+#make-a-reservation 
+{
+	min-height: 700px;
+	text-align: center;
+	padding: 8% 0 0 0; 
+}
+
+#make-a-reservation h1
+{
+	font-size: 60px;  
+	text-shadow: 3px 3px 7px rgb(15, 13, 15);
+	color: #fff;
+	font-weight: 300;
+}
+
+#button
+{
+	display: inline-block;
+	margin: 10% 0 0 0; 
+	width: 300px;
+	height: 100px; 
+	font-family: 'Just Another Hand', cursive;
+	font-size: 50px; 
+	text-shadow: 3px 3px 7px rgb(15, 13, 15);
+	border-radius: 8%; 
+}
+
+#button a
+{
+	text-decoration: none; 
+	color: #fff;
+	display: block; 
+	width: 300px;
+	height: 100px; 
+	border: 5px solid #006bb3;
+	border-radius: 8%; 
+	background-color:  #006bb3;
+	transition: 0.2s ease-in-out; 
+	cursor: pointer; 
+}
+
+#button a:visited
+{
+	text-decoration: none; 
+}
+
+#button a p
+{
+	margin: 15px 0 0 0; 
+
+}
+
+#button a:hover
+{
+	color: #006bb3; 
+	background-color: #fff; 
+	text-shadow: none;
+}
+
+#contact 
+{
+	min-height: 600px;
+	text-align: center;
+	padding: 6% 0 0 0; 
+}
+
+#contact h1
+{
+	font-size: 60px;  
+	text-shadow: 3px 3px 7px rgb(15, 13, 15);
+	color: #fff;
+	font-weight: 300;
+}
+
+.contact-ways
+{
+	width: 1000px;
+	height: 300px; 
+	display: inline-block; 
+	text-shadow: 3px 3px 7px rgb(15, 13, 15);
+	background-color:rgba(0, 0, 0, 0.3);
+	border: 1px solid rgba(255, 255, 255, 0);
+	border-radius: 5%;
+	text-align: center; 
+	margin: 5% 0 0 0; 
+
+}
+
+.contact-info
+{
+	width: 250px;
+	height: 250px; 
+	display: inline-block; 
+	text-align: center; 
+	margin: 4% 0 0 0; 
+}
+
+.contact-info:nth-child(2)
+{
+	margin: 0 10% 0 10%; 
+
+}
+
+.icons
+{
+	margin: 15px 0 15px 0;
+	font-size: 60px; 
+}
+
+.contact-info ul
+{
+	list-style-type: none; 
+	display: inline-block;
+}
+
+.contact-info ul p
+{
+	font-size: 20px; 
+
+}
+
+
+.contact-info ul p2
+{
+	opacity: 0;
+
+}
+
+/* Footer */ 
+
+footer
+{
+	width: 1100px;
+	height: 60px;
+	background-color:rgba(0, 0, 0, 0.3);
+	margin: auto; 
+	font-family: 'Roboto Slab', serif;
+	font-weight: 100;
+	font-size: 8px;
+	text-align: center; 
+	padding-top: 20px; 
+}
